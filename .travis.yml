@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+ - "5.11"
+
+branches:
+   only:
+    - master
+
+before_script:
+ - npm install -g firebase-tools
+
+script:
+ - echo "Deploying ..."
+
+
+after_success:
+ - firebase deploy --project webtechlab-e9cc8 --public . --token=${FIREBASE_TOKEN}
+
