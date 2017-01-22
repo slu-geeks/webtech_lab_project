@@ -16,9 +16,8 @@ install:
 
 script:
  - html5validator --root . --blacklist reference_manual_html --ignore 'Attribute "webkitallowfullscreen" not allowed' 'Attribute "mozallowfullscreen" not allowed' 'The "frameborder" attribute on the "iframe" element is obsolete' 'No "p" element in scope but a "p" end tag seen.'
- - echo "Deploying ..."
-
 
 after_success:
+ - echo "Deploying ..."
  - firebase deploy --project webtechlab-e9cc8 --public . --token=${FIREBASE_TOKEN}
 
