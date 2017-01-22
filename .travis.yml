@@ -10,10 +10,8 @@ branches:
    only:
     - master
 
-before_install:
-  npm install -g firebase-tools
-
  install:
+ - npm install -g firebase-tools
  - pip install html5validator
 
 script:
