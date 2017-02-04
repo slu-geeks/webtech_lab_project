@@ -9,17 +9,17 @@
     margin:0 auto;
 }
 
-#contact_form label {
-    display:block;
-    margin-top:20px;
-    letter-spacing:2px;
-}
-
 /* Centre the page */
 .body {
     display:block;
     margin:0 auto;
     width:576px;
+}
+
+#contact_form label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
 }
 
 /* Centre the form within the page */
