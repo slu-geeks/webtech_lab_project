@@ -5,37 +5,49 @@ body {
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type:none;
+    padding:0;
 }
-
 nav li {
-    display: inline;
-    float: left;
+    display:inline;
+    float:left;
 }
-
 nav a:link, nav a:visited {
-    background-color: brown;
-    color: white;
-    display: block;
-    width: 80px;
-    text-align: center;
+    background-color:lightsalmon;
+    color:white;
+    display:block;
+    width:160px;
+    text-align:center;
     padding: 10px 0;
 }
-
 nav a:hover {
-    background-color: black;
+    background-color:black;
 }
 
 header {
     background-image: url("../images/banner.jpg");
-    height:206px;
+    height:220px;
     margin-bottom:70px;
 }
 
 header h1 {
     color:rgba(256,256,256,.8);
     margin-left:30px;
-    margin-top:30px;
+    margin-top:10px;
     font-size:50px;
+}
+
+footer {
+    margin: 40px 0;
+}
+footer nav a:link, footer nav a:visited {
+    color:gray;
+    text-decoration:none;
+    display:block;
+    width:160px;
+    text-align:center;
+    background-color:white;
+}
+footer nav a:hover {
+    color:black;
 }
