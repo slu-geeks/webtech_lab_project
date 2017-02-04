@@ -4,6 +4,21 @@ body {
     width:960px;
 }
 
+h1, h2, h3 {
+    color:brown;
+}
+ul {
+    list-style-image: url("../images/ul-pic.png");
+}
+a:link, a:visited {
+    text-decoration:none;
+    color:brown;
+    font-weight:bold;
+}
+a:hover {
+    color:black;
+}
+
 nav ul {
     list-style-type:none;
     padding:0;
