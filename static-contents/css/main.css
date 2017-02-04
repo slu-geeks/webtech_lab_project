@@ -85,3 +85,7 @@ footer nav a:link, footer nav a:visited {
 footer nav a:hover {
     color:black;
 }
+
+.clear-both{
+    clear: both;
+}
