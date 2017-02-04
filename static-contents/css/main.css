@@ -24,9 +24,28 @@ nav a:hover {
     background-color:black;
 }
 
+aside {
+    width:280px;
+    float:right;
+    background-color: tan;
+    text-align:center;
+    font-weight:bold;
+    padding:20px;
+    margin-left:20px;
+}
+.photo-left {
+    float:left;
+    margin-right:20px;
+}
+
+.photo-right {
+    float:right;
+    margin-left:20px;
+}
+
 header {
     background-image: url("../images/banner.jpg");
-    height:220px;
+    height:160px;
     margin-bottom:70px;
 }
 
