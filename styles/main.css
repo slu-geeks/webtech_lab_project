@@ -8,7 +8,7 @@ h1, h2, h3 {
     color:brown;
 }
 ul {
-    list-style-image: url("../images/ul-pic.png");
+    list-style-image: url("../static-contents/images/ul-pic.png");
 }
 a:link, a:visited {
     text-decoration:none;
@@ -59,7 +59,7 @@ aside {
 }
 
 header {
-    background-image: url("../images/banner.jpg");
+    background-image: url("../static-contents/images/banner.jpg");
     height:160px;
     margin-bottom:70px;
 }
