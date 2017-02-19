@@ -38,8 +38,9 @@ nav a:link, nav a:visited {
     text-align:center;
     padding: 10px 0;
 }
+
 nav a:hover {
-    background-color:black;
+    background-color:#5C246E;
 }
 
 aside {
@@ -51,6 +52,7 @@ aside {
     padding:20px;
     margin-left:10px;
     margin-right:0px;
+    box-shadow: 5px 5px 2.5px #888888;
 }
 
 section{
@@ -72,7 +74,8 @@ header {
     height:150px;
     margin-bottom:23px;
     background-color: #BDA0CB;
-    width: 100%
+    width: 100%;
+    box-shadow: 5px 5px 2.5px #888888;
     
 }
 
@@ -83,19 +86,22 @@ header h1 {
     margin-top:20px;
     font-size:50px;
     text-align:center;
+    letter-spacing: 10px;
+    text-transform: capitalize;
 }
 
 footer {
     display: inline-block;
-    margin: auto;
+    margin-top: 50px;
+    
 }
 footer nav a:link, footer nav a:visited {
     color:gray;
     text-decoration:none;
     display:block;
-    width:160px;
     text-align:center;
     background-color:white;
+    
     
 }
 footer nav a:hover {
