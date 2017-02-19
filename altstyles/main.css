@@ -1,37 +1,37 @@
 body {
-    font-family: 'Georgia', sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FDF8FF;
 }
 
 h1, h2, h3 {
-    color:brown;
+    color:#2E0854;
 }
-ul {
-    list-style-image: url("../static-contents/images/ul-pic.png");
+h1 {
+	text-align: center
 }
 a:link, a:visited {
     text-decoration:none;
-    color:brown;
+    color:#2E0854;
     font-weight:bold;
 }
 a:hover {
-    color:black;
+    color: violet;
 }
 
-nav {
-	position: absolute;
-}
 nav ul {
     list-style-type:none;
     padding:0;
 }
 
 nav li {
-    display:
-    float:left;
+    display: table-row;
+    box-shadow: 5px 5px 2.5px #888888;
 }
 
 nav a:link, nav a:visited {
-    background-color:lightsalmon;
+    background-color:#BF5FFF;
     color:white;
     display:block;
     width:160px;
@@ -45,12 +45,12 @@ nav a:hover {
 aside {
     width:300px;
     float: right;
-    background-color: tan;
+    background-color: #D8BFD8;
     text-align:center;
     font-weight:bold;
     padding:20px;
-    margin-left:0px;
-    margin-right:50px;
+    margin-left:10px;
+    margin-right:0px;
 }
 
 section{
@@ -69,23 +69,25 @@ section{
 
 header {
 	float:left;
-    height:100px;
-    margin-bottom:30px;
-    background-color: salmon;
+    height:150px;
+    margin-bottom:23px;
+    background-color: #BDA0CB;
     width: 100%
+    
 }
 
 header h1 {
     color:rgba(256,256,256,.8);
     margin-left:30px;
+    margin-right: 30px;
     margin-top:20px;
     font-size:50px;
     text-align:center;
 }
 
 footer {
-    margin: 40px 0;
     display: inline-block;
+    margin: auto;
 }
 footer nav a:link, footer nav a:visited {
     color:gray;
